@@ -15,7 +15,7 @@ BML is a novel and effective solution for few-shot classification. Inspired by t
 </p>
 
 - Full paper PDF: [Binocular Mutual Learning for Improving Few-shot Classification](https://arxiv.org/abs/2108.12104)
-- Authors: Ziqi Zhou, Xi Qiu, JIangtao Xie, Jianan Wu, Chi Zhang.
+- Authors: Ziqi Zhou, Xi Qiu, Jiangtao Xie, Jianan Wu, Chi Zhang.
 - Environments: Ubuntu 18.04.5 LTS, Python 3.6. 
 - Our weights: [miniImageNet](), [tiredImageNet](), [CUB](), [CIFAR-FS](), [FC100]()
 
@@ -73,7 +73,7 @@ We give a representative training example on miniImageNet, for other dataset, co
 ```
 bash train_bml.sh
 ```
-You need at least one nvidia tesla v100 with 32G memory or two GeForce RTX 2080ti with 12G memory.
+You need at least one nvidia tesla v100 or two GeForce RTX 2080ti.
 
 If you want to train two baseline models ```baseline-global``` and ```baseline-local```, we also provide corresponding training interfaces:
 ```
