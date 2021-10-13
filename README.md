@@ -1,6 +1,4 @@
-<p style="width: 10%; display: block; margin-left: auto; margin-right: auto">
-    <img src="assets/megvii_logo.png" alt="megvii research"/>
-</p>
+<img src="assets/megvii_logo.png" width="16%" alt="megvii research"/>
 
 ## Binocular Mutual Learning for Improving Few-shot Classification (BML)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
