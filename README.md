@@ -17,7 +17,7 @@ BML is a novel and effective solution for few-shot classification. Inspired by t
 - Full paper PDF: [Binocular Mutual Learning for Improving Few-shot Classification](https://arxiv.org/abs/2108.12104)
 - Authors: Ziqi Zhou, Xi Qiu, Jiangtao Xie, Jianan Wu, Chi Zhang.
 - Environments: Ubuntu 18.04.5 LTS, Python 3.6. 
-- Our weights: [miniImageNet](), [tiredImageNet](), [CUB](), [CIFAR-FS](), [FC100]()
+- Our weights: [miniImageNet](https://drive.google.com/file/d/1PUJNz8HUSsmX8PkcrnqF2y0PWKkCQuwD/view), [tiredImageNet](https://drive.google.com/file/d/1_ynzWQXdAkgfqzxR620EgnMWa1KWse-H/view), [CUB](https://drive.google.com/file/d/1bz0FW3BCc_JLnLD1mxHK-NS2x5ei2Qbm/view), [CIFAR-FS](https://drive.google.com/file/d/1zz7cvFbtV9GtHkVxpbrMEdpRN8g35ooP/view), [FC100](https://drive.google.com/file/d/134IZc0EfXCIheJBi_BAX_LVTCx8i4HH5/view)
 
 ## Setup
 ### 1. Dependencies
@@ -47,7 +47,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
      |Dataset|DownloadPath|Split|
      |---|---|---|
      |miniImageNet|[path](https://drive.google.com/file/d/11oy22al0G4Yqg03ugbV_vhcVeG7ATZAR/view)|64/16/20|
-     |tieredImageNet|[path]()|351/97/160|
+     |tieredImageNet|[path](https://pan.baidu.com/s/1e-g8ZDQ61-vzXKM92MzW7Q)(code:123z)|351/97/160|
      |CUB|[path](https://drive.google.com/file/d/1pvVem-KcouXsTrQobQ8dT8GYZ76uYfiX/view)|100/50/50|
      |CIFAR-FS|[path](https://drive.google.com/file/d/1NJmyP3yzL8bOAjn8SiEtbHqa8cT7eEPp/view)|64/16/20|
      |FC100|[path](https://drive.google.com/file/d/1aY-e0J-QjEQnsUaiuRNjpeq6otk5VBNu/view)|60/20/20|
@@ -57,12 +57,12 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
    
      |Dataset|GoogleDriver|BaiDuYun|5way-5shot|5way-1shot|
      |---|---|---|---|---|
-     |miniImageNet|[path]()|[path]()|83.69|67.21|
-     |tieredImageNet|[path]()|[path]()|85.15|69.49|
-     |CIFAR-FS|[path]()|[path]()|88.4|74.51|
-     |CUB|[path]()|[path]()|89.8|74.42|
-     |FC100|[path]()|[path]()|62.62|44.62|
-   - The training and eval details can be found in [log]() and [eval_results](eval_results).
+     |miniImageNet|[path](https://drive.google.com/file/d/1PUJNz8HUSsmX8PkcrnqF2y0PWKkCQuwD/view?usp=sharing)|[path](https://pan.baidu.com/s/1nertcPLlK2KZ4bqv2CKjmQ)(code:123z)|83.69|67.21|
+     |tieredImageNet|[path](https://drive.google.com/file/d/1_ynzWQXdAkgfqzxR620EgnMWa1KWse-H/view?usp=sharing)|[path](https://pan.baidu.com/s/1gICDMc49dAyfrt1iPEqlMw)(code:123z)|85.15|69.49|
+     |CIFAR-FS|[path](https://drive.google.com/file/d/1zz7cvFbtV9GtHkVxpbrMEdpRN8g35ooP/view?usp=sharing)|[path](https://pan.baidu.com/s/1Oss_5BFJg9oijJ5tt8xbeA)(code:123z)|88.4|74.51|
+     |CUB|[path](https://drive.google.com/file/d/1bz0FW3BCc_JLnLD1mxHK-NS2x5ei2Qbm/view?usp=sharing)|[path](https://pan.baidu.com/s/1-p0OWGgXkT6cNSFK9TcZgA)(code:123z)|89.8|74.42|
+     |FC100|[path](https://drive.google.com/file/d/134IZc0EfXCIheJBi_BAX_LVTCx8i4HH5/view?usp=sharing)|[path](https://pan.baidu.com/s/1QVaxLiUBlvFZmAYmcGstSQ)(code:123z)|62.62|44.62|
+   - The training and eval details can be found in [log](https://drive.google.com/file/d/1qKBQoIMtV197pEbYnKWG87Pz7HeVT9Yt/view?usp=sharing) and [eval_results](eval_results).
    - download weights to ```pretrained_weights```. 
    - note: We give the latest evaluation results and models which are slightly different from the results reported in the paper. 
 
