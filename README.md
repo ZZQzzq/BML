@@ -83,7 +83,8 @@ bash train_baseline.sh
 ### 2. evaluation
 For fairness, we evaluate BML on 2,000 episodes with 10 random seeds. 
 ```bash
-bash eval_bml.sh miniImageNet A /path/to/weights
+bash eval_bml.sh miniImageNet A /path/to/weights 5
+bash eval_bml.sh miniImageNet A /path/to/weights 1
 ```
 
 ## Acknowlegements
