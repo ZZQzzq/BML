@@ -59,8 +59,8 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
      |---|---|---|---|---|
      |miniImageNet|[path](https://drive.google.com/file/d/1PUJNz8HUSsmX8PkcrnqF2y0PWKkCQuwD/view?usp=sharing)|[path](https://pan.baidu.com/s/1nertcPLlK2KZ4bqv2CKjmQ)(code:123z)|83.69|67.21|
      |tieredImageNet|[path](https://drive.google.com/file/d/1_ynzWQXdAkgfqzxR620EgnMWa1KWse-H/view?usp=sharing)|[path](https://pan.baidu.com/s/1gICDMc49dAyfrt1iPEqlMw)(code:123z)|85.15|69.49|
-     |CIFAR-FS|[path](https://drive.google.com/file/d/1zz7cvFbtV9GtHkVxpbrMEdpRN8g35ooP/view?usp=sharing)|[path](https://pan.baidu.com/s/1Oss_5BFJg9oijJ5tt8xbeA)(code:123z)|88.4|74.51|
-     |CUB|[path](https://drive.google.com/file/d/1bz0FW3BCc_JLnLD1mxHK-NS2x5ei2Qbm/view?usp=sharing)|[path](https://pan.baidu.com/s/1-p0OWGgXkT6cNSFK9TcZgA)(code:123z)|89.8|74.42|
+     |CIFAR-FS|[path](https://drive.google.com/file/d/1zz7cvFbtV9GtHkVxpbrMEdpRN8g35ooP/view?usp=sharing)|[path](https://pan.baidu.com/s/1Oss_5BFJg9oijJ5tt8xbeA)(code:123z)|88.63|74.99|
+     |CUB|[path](https://drive.google.com/file/d/1bz0FW3BCc_JLnLD1mxHK-NS2x5ei2Qbm/view?usp=sharing)|[path](https://pan.baidu.com/s/1-p0OWGgXkT6cNSFK9TcZgA)(code:123z)|89.80|74.42|
      |FC100|[path](https://drive.google.com/file/d/134IZc0EfXCIheJBi_BAX_LVTCx8i4HH5/view?usp=sharing)|[path](https://pan.baidu.com/s/1QVaxLiUBlvFZmAYmcGstSQ)(code:123z)|62.62|44.62|
    - The training and eval details can be found in [log](https://drive.google.com/file/d/1qKBQoIMtV197pEbYnKWG87Pz7HeVT9Yt/view?usp=sharing) and [eval_results](eval_results).
    - download weights to ```pretrained_weights```. 
